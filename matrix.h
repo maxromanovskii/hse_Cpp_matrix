@@ -1,5 +1,5 @@
-#ifndef INC_4WEEK_MATRIX_MATRIX_H
-#define INC_4WEEK_MATRIX_MATRIX_H
+#ifndef INC_MATRIX_H
+#define INC_MATRIX_H
 
 #include <vector>
 
@@ -35,4 +35,4 @@ private:
 Matrix operator*(const Matrix& m, double k);
 Matrix operator*(double k, const Matrix& m);
 
-#endif //INC_4WEEK_MATRIX_MATRIX_H
+#endif //INC_MATRIX_H
